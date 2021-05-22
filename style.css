@@ -1,40 +1,10 @@
-.titulo{
-  position: absolute;
-  width: 340px;
-  height: 54px;
-  left: 18px;
-  top: 156px;
 
-  font-family: Myanmar;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 32px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  color: #636363;
-}
-.legenda{
-  position: absolute;
-  margin-top: 20px;
-  width: 185px;
-  height: 100px;
-  left: 18px;
-  top: 191px;
-
-  font-family: Myanmar;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 30px;
-
-  color: #636363;
-}
 
 .bg-image {
   position: relative;
-  height: 200px;
+  height: 400px;
   overflow: hidden;
-  background-image: url(img/galpao.jpg);
+  background-color: #636363;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -94,7 +64,6 @@
     font-style: normal;
 }
 h1 {
-    position: relative;
     font-family: Myanmar;
     font-size: 100px;
     line-height: 65px;
@@ -103,4 +72,51 @@ h1 {
 }
 a{
     font-size: 24px;
+}
+.card-body{
+  background-color: #636363;
+  height: 282px;
+  box-shadow:4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card{
+  margin: 30px; 
+}
+.sobre{
+  position: relative;
+  color: #309839;
+  top: 30px;
+  left: 30px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Myanmar;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+}
+.sobredois{
+  position: relative;
+  top: 60px;
+  font-family: Myanmar;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 65px;
+
+  color: #636363;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sobretres{
+  position: relative;
+  top: 70px;
+  font-family: Myanmar;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #636363;
+
+  opacity: 0.62;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

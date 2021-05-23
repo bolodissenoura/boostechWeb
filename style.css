@@ -120,3 +120,28 @@ a{
   opacity: 0.62;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.hr3 {
+  border: 0;
+  height: 2px;
+  position: relative;
+  background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+}
+.checks{
+  font-family: Myanmar;
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+
+  color: #636363;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+@media only screen and (min-width: 700px) {
+  .menu-btn  {
+    display: none;
+  }
+}

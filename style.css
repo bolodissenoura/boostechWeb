@@ -155,7 +155,16 @@ a{
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
-  
+}
+.acontato:hover {
+  color: #fff;
+  background-color: #297412;
+  cursor: pointer;
+}
+
+.acontato:active {
+  box-shadow: none;
+  top: 5px;
 }
 .hr3 {
   border: 0;

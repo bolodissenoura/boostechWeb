@@ -24,9 +24,9 @@
         <div class="hamburguer active"></div>
         <ul class="menu active">
           <li><a class="home" style="text-decoration: none;" href="">Home</a></li>
-          <li><a class="home" style="text-decoration: none;" href="#sobrenos">Sobre</a></li>
+          <li><a class="home" style="text-decoration: none;" href="#sobreid">Sobre</a></li>
           <li><a class="home" style="text-decoration: none;" href="#sobrenos">Seviços</a></li>
-          <li><a class="home" style="text-decoration: none;" href="">Contato</a></li>
+          <li><a class="home" style="text-decoration: none;" href="#contatoid">Contato</a></li>
           <li><a class="home" style="height: 10px; text-decoration: none;position: relative;bottom: 15px;" href=""><img style="width: 25px;" src="img/united-states.png" alt=""> </a></li>
 
         </ul>
@@ -58,7 +58,7 @@
           </div>
 
           <p class="sobre anime">Sobre nós</p>
-          <p class="sobredois text-center anime">Quem somos ?</p>
+          <p id="sobreid" class="sobredois text-center anime">Quem somos ?</p>
           <p class="sobretres text-center anime">Atuante no mercado nacional de aplicações de software empresarial para o segmento logístico,
             <br>a Boostech é uma empresa focada em implementar soluções inteligentes e flexíveis para gestão de armazenagem e transporte.  <br>
             <br>Com toda nossa expertise, movidos por novos desafios e vontade de oferecer a melhor experiência, somos hoje uma empresa <br>
@@ -67,7 +67,7 @@
             implementar tecnologias novas e eficiêntes com foco em melhorar seu projeto como um todo. <br> <br>
             Agora que já nos conhece, deixe-nos te conhecer melhor !
       </p>
-      <div style="text-align-last: center;cursor: pointer;" class="contatobtn"><a class="acontato" style="position: relative; top: 90px; font-size: 20px;text-decoration: none;">Contato</a></div>
+      <div style="text-align-last: center;cursor: pointer;" class="contatobtn"><a class="acontato" href="#contatoid" style="font-style: Myanmar; position: relative; top: 90px; font-size: 20px;text-decoration: none;">Contato</a></div>
       
 
           
@@ -131,19 +131,23 @@
         <!--Grid row-->
         <div class="row d-flex justify-content-center">
           <!--Grid column-->
-          <div class="col-auto">
-            <p class="pt-2">
-              <strong>Receba nossa newsletter</strong>
-            </p>
-          </div>
           <!--Grid column-->
 
           <!--Grid column-->
           <div class="col-md-5 col-12">
             <!-- Email input -->
             <div class="form-outline form-white mb-4">
-              <input type="email" id="form5Example2" class="form-control" />
-              <label class="form-label" for="form5Example2">Email</label>
+              <strong>Seu melhor e-mail:</strong>
+              <input type="email" id="form5Example2" class="form-control" style="margin-bottom: 20px;" />
+              <strong>Seu nome: </strong>
+              <input type="name" id="form5Example2" class="form-control" style="margin-bottom: 20px;"/>
+              <strong>Telefone: </strong>
+              <input type="number" id="form5Example2" class="form-control" style="margin-bottom: 20px;" />
+              <strong>Empresa: </strong>
+              <input type="name" id="form5Example2" class="form-control" style="margin-bottom: 20px;"/>
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Enviar
+              </button>
             </div>
           </div>
           <!--Grid column-->
@@ -151,9 +155,6 @@
           <!--Grid column-->
           <div class="col-auto">
             <!-- Submit button -->
-            <button type="submit" class="btn btn-outline-light mb-4">
-              Enviar
-            </button>
           </div>
           <!--Grid column-->
         </div>
@@ -164,7 +165,7 @@
 
 
     <!-- Section: Links -->
-    <section class="">
+    <section id="contatoid" class="">
       <!--Grid row-->
       <div class="row">
         <!--Grid column-->

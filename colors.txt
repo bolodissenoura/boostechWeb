@@ -3,5 +3,25 @@
 #434343
 
 Myriad Pro bold
+        <div class="container">
+          <div style="position: relative;left: 60%;bottom: 34px;" class="row">
+            <div style="margin-right: 20px;" class="col-sm-1">
+              <a class="home" style="text-decoration: none;" href="">Home</a>
+            </div>
+            <div style="margin-right: 20px;" class="col-sm-1">
+              <a class="home" style="text-decoration: none;" href="">Sobre</a>
+            </div>
+            <div style="margin-right: 20px;" class="col-sm-1">
+              <a class="home" style="text-decoration: none;" href="">Seviços</a>
+            </div>
+            <div style="margin-right: 20px;margin-left:20px ;" class="col-sm-1">
+              <a class="home" style="text-decoration: none;" href="">Contato</a>
+            </div>
+          </div>
+        </div>
+
+
+
+
 
 https://leadster.com.br/teste-gratis/?utm_source=clientes&utm_medium=chat_neurologic&utm_campaign=eforti.com.br

@@ -76,11 +76,51 @@
       
           <div class="">
             <hr style="top: 100px;" class="hr3">
-            <ion-icon style="font-size: 30px; color: #309839; position: relative; top: 100px;" class="anime" name="checkmark-outline"></ion-icon>
-            <p style="left:30px;top: 67px;" class="checks anime">Short-Term</p>
-            <ion-icon style="font-size: 30px; color: #309839; position: relative;top: 16px;left: 170px;" class="anime" name="checkmark-outline"></ion-icon>
-            <p style="left:200px;bottom: 14px;" class="checks anime">Quality</p>
-            <hr class="hr3">
+            <!-- Swiper -->
+<div class="swiper-container" style="padding-top: 50px;margin-bottom: -100px;">
+<div class="swiper-wrapper" style="opacity: .9;">
+<div class="swiper-slide" style="background-image: url(img/logsmartlogo.png);">   </div>
+<div class="swiper-slide" style="background-image: url(img/logsmartlogo.png);">   </div>
+<div class="swiper-slide" style="background-image: url(img/logsmartlogo.png);">   </div>
+<div class="swiper-slide" style="background-image: url(img/logsmartlogo.png);">   </div>
+<div class="swiper-slide" style="background-image: url(img/logsmartlogo.png);">   </div>
+<div class="swiper-slide" style="background-image: url(img/logsmartlogo.png);">   </div>
+
+</div>
+<!-- Add Pagination -->
+<div class="swiper-pagination"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+var swiper = new Swiper('.swiper-container', {
+
+effect: 'coverflow',
+grabCursor: true,
+centeredSlides: true,
+slidesPerView: 'auto',
+coverflowEffect: {
+rotate: 0,
+stretch: 0,
+depth: 100,
+modifier: 1,
+slideShadows: false,
+},
+autoplay: {
+delay: 3000,
+},
+loop: true,
+});
+</script>  
+
+
+
+
+<hr class="hr3">
           </div>
           <div class="bg-image" style="background-image: url(img/galpaobt.jpg);"></div>
           <div class="card-group">

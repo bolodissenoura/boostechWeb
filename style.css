@@ -34,7 +34,7 @@ html, body { max-width: 100%; overflow-x: hidden;}
 .bg-image {
   position: relative;
   height: 500px;
-  background-image: url(img/bck.png);
+  background-color: #CCC;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;

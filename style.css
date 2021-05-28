@@ -34,7 +34,7 @@ html, body { max-width: 100%; overflow-x: hidden;}
 .bg-image {
   position: relative;
   height: 500px;
-  background-color: #CCC;
+  background-image: url(img/Imagem1.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
